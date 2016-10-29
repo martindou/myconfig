@@ -1,0 +1,6 @@
+hardstatus alwayslastline
+hardstatus string '%{= kG}[ %{G} %Y/%m/%d %c %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][ %{G} %H %{g}][ %{C}(F9)New (F10)Rename (F11)Prev %{g}]'
+bindkey -k k9 screen
+bindkey -k k; title
+bindkey -k F1 prev
+bindkey -k F2 next
